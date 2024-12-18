@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" width="device-width, initial-scale=1.0">
+    <title>寻宝游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img id="treasureChestImage" src="宝藏.png" alt="宝藏" class="treasure-chest" />
+    </header>
+    <section class="container">
+        <h1>寻宝游戏</h1>
+        <div id="status"></div>
+        <button id="nextButton" disabled>下一步</button>
+        <button id="restartButton">重新开始</button>
+    </section>
+    <div id="libraryInfo" class="info-section"></div>
+    <div id="templeInfo" class="info-section"></div>
+    <div id="guardInfo" class="info-section"></div>
+    <button id="playMusicButton">播放背景音乐</button>
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="treasure.js"></script>
+</body>
+
+</html>
